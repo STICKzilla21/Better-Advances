@@ -1,0 +1,34 @@
+{
+    "display": {
+        "title": {
+            "text": "Buen trabajo"
+        },
+        "description": {
+            "text": "Usa una azada de netherita hasta que se rompa... y deja de replantearte tu vida... solo disfrútala."
+        },
+        "icon": {
+            "item": "minecraft:netherite_hoe"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "BreakNetheriteHoe": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "durability": {
+                    "min": 0,
+                    "max": 0
+                },
+                "item": {
+                    "items": [
+                        "minecraft:netherite_hoe"
+                    ]
+                }
+            }
+        }
+    },
+    "parent": "husbandry/obtain_netherite_hoe"
+}

@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text": "Amigo de los zorros"
+        },
+        "description": {
+            "text": "Lanza algo de comida a un zorro."
+        },
+        "icon": {
+            "item": "minecraft:sweet_berries"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Fox": {
+            "trigger": "minecraft:thrown_item_picked_up_by_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:fox"
+                }
+            }
+        }
+    },
+    "parent": "husbandry/root"
+}

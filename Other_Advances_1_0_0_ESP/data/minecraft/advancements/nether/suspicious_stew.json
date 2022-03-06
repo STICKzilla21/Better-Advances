@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "Sospechoso"
+        },
+        "description": {
+            "text": "Come un estofado sospechoso hecho con una rosa de Wither."
+        },
+        "icon": {
+            "item": "minecraft:suspicious_stew"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "Suspicious": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "nbt": "{Effects:[{EffectId:20b,EffectDuration:160}]}",
+                    "items": [
+                        "minecraft:suspicious_stew"
+                    ]
+                }
+            }
+        }
+    },
+    "parent": "nether/wither_rose"
+}

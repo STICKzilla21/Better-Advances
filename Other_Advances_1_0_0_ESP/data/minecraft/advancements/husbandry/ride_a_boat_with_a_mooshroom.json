@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:birch_boat"
+    },
+    "title": {
+      "translate": "Escape de la isla central"
+    },
+    "description": {
+      "translate": "Métete en una barca y flota con una champiñaca."
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "RideABoatWithAMooshroom": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "predicate": {
+              "vehicle": {
+                "type": "minecraft:boat",
+                "passenger": {
+                  "type": "minecraft:mooshroom"
+                }
+              }
+            },
+            "entity": "this"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "RideABoatWithAMooshroom"
+    ]
+  ],
+  "parent": "husbandry/ride_a_boat_with_a_bear"
+}

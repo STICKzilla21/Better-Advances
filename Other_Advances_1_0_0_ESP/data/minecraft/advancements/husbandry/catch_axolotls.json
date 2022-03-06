@@ -1,0 +1,92 @@
+{
+    "display": {
+        "title": {
+            "text": "Limpiadores de agua"
+        },
+        "description": {
+            "text": "¡Atrapa todas las especies de ajolote!"
+        },
+        "icon": {
+            "item": "minecraft:water_bucket"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Axolotl1": {
+            "trigger": "minecraft:filled_bucket",
+            "conditions": {
+                "item": {
+                    "nbt": "{Variant:0}",
+                    "items": [
+                        "minecraft:axolotl_bucket"
+                    ]
+                }
+            }
+        },
+        "Axolotl2": {
+            "trigger": "minecraft:filled_bucket",
+            "conditions": {
+                "item": {
+                    "nbt": "{Variant:1}",
+                    "items": [
+                        "minecraft:axolotl_bucket"
+                    ]
+                }
+            }
+        },
+        "Axolotl3": {
+            "trigger": "minecraft:filled_bucket",
+            "conditions": {
+                "item": {
+                    "nbt": "{Variant:2}",
+                    "items": [
+                        "minecraft:axolotl_bucket"
+                    ]
+                }
+            }
+        },
+        "Axolotl4": {
+            "trigger": "minecraft:filled_bucket",
+            "conditions": {
+                "item": {
+                    "nbt": "{Variant:3}",
+                    "items": [
+                        "minecraft:axolotl_bucket"
+                    ]
+                }
+            }
+        },
+        "Axolotl5": {
+            "trigger": "minecraft:filled_bucket",
+            "conditions": {
+                "item": {
+                    "nbt": "{Variant:4}",
+                    "items": [
+                        "minecraft:axolotl_bucket"
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "Axolotl1"
+        ],
+        [
+            "Axolotl2"
+        ],
+        [
+            "Axolotl3"
+        ],
+        [
+            "Axolotl4"
+        ],
+        [
+            "Axolotl5"
+        ]
+    ],
+    "parent": "husbandry/axolotl_in_a_bucket"
+}

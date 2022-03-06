@@ -1,0 +1,92 @@
+{
+    "criteria": {
+        "Demonshunter1": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:blaze"
+                }
+            }
+        },
+        "Demonshunter2": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:ghast"
+                }
+            }
+        },
+        "Demonshunter3": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zombified_piglin"
+                }
+            }
+        },
+        "Demonshunter4": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:wither_skeleton"
+                }
+            }
+        },
+        "Demonshunter5": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:strider"
+                }
+            }
+        },
+        "Demonshunter6": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:piglin"
+                }
+            }
+        },
+        "Demonshunter7": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:piglin_brute"
+                }
+            }
+        },
+        "Demonshunter8": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:magma_cube"
+                }
+            }
+        },
+        "Demonshunter9": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:hoglin"
+                }
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Demon Hunter"
+        },
+        "description": {
+            "text": "Mata a una criatura de cada tipo que vive en el Nether."
+        },
+        "icon": {
+            "item": "minecraft:gold_nugget"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "nether/kill_hoglin"
+}

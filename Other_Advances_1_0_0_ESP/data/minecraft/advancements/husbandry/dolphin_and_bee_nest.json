@@ -1,0 +1,34 @@
+{
+    "display": {
+        "title": {
+            "text": "Cetáceos juguetones"
+        },
+        "description": {
+            "text": "Juega con un delfín y una colmena con tres abejas dentro, os divertiréis."
+        },
+        "icon": {
+            "item": "minecraft:bee_nest"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "DolphinAndBeehive": {
+            "trigger": "minecraft:thrown_item_picked_up_by_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:dolphin"
+                },
+                "item": {
+                    "num_bees_inside": 3,
+                    "items": [
+                        "minecraft:bee_nest"
+                    ]
+                }
+            }
+        }
+    },
+    "parent": "husbandry/silk_touch_nest"
+}

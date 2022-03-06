@@ -1,0 +1,32 @@
+{
+    "display": {
+        "title": {
+            "text": "¡Ritmo caliente!"
+        },
+        "description": {
+            "text": "Encuentra el disco de música Pigstep en la bastión en ruinas."
+        },
+        "icon": {
+            "item": "minecraft:music_disc_pigstep"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "Pigstep": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:music_disc_pigstep"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "nether/loot_bastion"
+}

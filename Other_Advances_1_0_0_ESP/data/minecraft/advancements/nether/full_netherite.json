@@ -1,0 +1,72 @@
+{
+    "display": {
+        "title": {
+            "text": "Set completo"
+        },
+        "description": {
+            "text": "Consigue todo el conjunto de la armadura y de las herramientas de netherita."
+        },
+        "icon": {
+            "item": "minecraft:netherite_sword"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "NetheriteSet": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:netherite_helmet"
+                        ]
+                    },
+                    {
+                        "items": [
+                            "minecraft:netherite_chestplate"
+                        ]
+                    },
+                    {
+                        "items": [
+                            "minecraft:netherite_leggings"
+                        ]
+                    },
+                    {
+                        "items": [
+                            "minecraft:netherite_boots"
+                        ]
+                    },
+                    {
+                        "items": [
+                            "minecraft:netherite_sword"
+                        ]
+                    },
+                    {
+                        "items": [
+                            "minecraft:netherite_pickaxe"
+                        ]
+                    },
+                    {
+                        "items": [
+                            "minecraft:netherite_axe"
+                        ]
+                    },
+                    {
+                        "items": [
+                            "minecraft:netherite_shovel"
+                        ]
+                    },
+                    {
+                        "items": [
+                            "minecraft:netherite_hoe"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "nether/netherite_armor"
+}

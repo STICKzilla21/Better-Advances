@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "Viajero del tiempo"
+        },
+        "description": {
+            "text": "Usa el Nether para recorrer 15 km en la superficie."
+        },
+        "icon": {
+            "item": "minecraft:filled_map"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "NetherTravel": {
+            "trigger": "minecraft:nether_travel",
+            "conditions": {
+                "player": {
+                    "location": {}
+                },
+                "distance": {
+                    "absolute": {
+                        "min": 15000
+                    }
+                }
+            }
+        }
+    },
+    "parent": "nether/fast_travel"
+}

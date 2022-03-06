@@ -1,0 +1,32 @@
+{
+    "display": {
+        "title": {
+            "text": "Baúl visionario"
+        },
+        "description": {
+            "text": "Fabrica un cofre de ender, útil para guardar objetos de gran valor cuando y donde quieras."
+        },
+        "icon": {
+            "item": "minecraft:ender_chest"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "EnderChest": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:ender_chest"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "nether/ender_eye"
+}

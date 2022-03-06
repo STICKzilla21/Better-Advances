@@ -1,0 +1,110 @@
+{
+    "display": {
+        "title": {
+            "text": "Entre nosotros"
+        },
+        "description": {
+            "text": "Mata a un piglin con una ballesta mientras usas una armadura completa de oro."
+        },
+        "icon": {
+            "item": "minecraft:golden_helmet"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "AmongUs1": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:piglin"
+                },
+                "killing_blow": {
+                    "direct_entity": {
+                        "type": "minecraft:arrow"
+                    },
+                    "source_entity": {
+                        "equipment": {
+                            "head": {
+                                "items": [
+                                    "minecraft:golden_helmet"
+                                ]
+                            },
+                            "chest": {
+                                "items": [
+                                    "minecraft:golden_chestplate"
+                                ]
+                            },
+                            "legs": {
+                                "items": [
+                                    "minecraft:golden_leggings"
+                                ]
+                            },
+                            "feet": {
+                                "items": [
+                                    "minecraft:golden_boots"
+                                ]
+                            },
+                            "mainhand": {
+                                "items": [
+                                    "minecraft:crossbow"
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "AmongUs2": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:piglin"
+                },
+                "killing_blow": {
+                    "direct_entity": {
+                        "type": "minecraft:arrow"
+                    },
+                    "source_entity": {
+                        "equipment": {
+                            "head": {
+                                "items": [
+                                    "minecraft:golden_helmet"
+                                ]
+                            },
+                            "chest": {
+                                "items": [
+                                    "minecraft:golden_chestplate"
+                                ]
+                            },
+                            "legs": {
+                                "items": [
+                                    "minecraft:golden_leggings"
+                                ]
+                            },
+                            "feet": {
+                                "items": [
+                                    "minecraft:golden_boots"
+                                ]
+                            },
+                            "offhand": {
+                                "items": [
+                                    "minecraft:crossbow"
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "AmongUs1",
+            "AmongUs2"
+        ]
+    ],
+    "parent": "nether/distract_piglin"
+}

@@ -1,0 +1,30 @@
+{
+    "criteria": {
+        "Hoglin": {
+            "trigger": "minecraft:killed_by_crossbow",
+            "conditions": {
+                "victims": [
+                    {
+                        "type": "minecraft:hoglin"
+                    }
+                ]
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Cerdo cazado"
+        },
+        "description": {
+            "text": "Mata a un hoglin con una ballesta."
+        },
+        "icon": {
+            "item": "minecraft:porkchop"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "nether/root"
+}

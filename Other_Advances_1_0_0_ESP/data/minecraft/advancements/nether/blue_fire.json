@@ -1,0 +1,62 @@
+{
+    "display": {
+        "title": {
+            "text": "El repelente ideal"
+        },
+        "description": {
+            "text": "Usa un mechero en arena de almas para conseguir fuego azul y así asustar a los piglins."
+        },
+        "icon": {
+            "item": "minecraft:flint_and_steel"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "BlueFire1": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:flint_and_steel"
+                    ]
+                },
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "minecraft:soul_sand"
+                        ]
+                    },
+                    "dimension": "the_nether"
+                }
+            }
+        },
+        "BlueFire2": {
+            "trigger": "minecraft:item_used_on_block",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:flint_and_steel"
+                    ]
+                },
+                "location": {
+                    "block": {
+                        "blocks": [
+                            "minecraft:soul_soil"
+                        ]
+                    },
+                    "dimension": "the_nether"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "BlueFire1",
+            "BlueFire2"
+        ]
+    ],
+    "parent": "nether/root"
+}
