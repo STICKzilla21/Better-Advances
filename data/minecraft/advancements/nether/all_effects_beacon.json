@@ -1,0 +1,63 @@
+{
+    "display": {
+        "title": {
+            "text": "Beacons's Pharaoh"
+        },
+        "description": {
+            "text": "Get all of the level two beacon effects at once"
+        },
+        "icon": {
+            "item": "minecraft:beacon"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "Beacon": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:jump_boost": {
+                        "amplifier": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    },
+                    "minecraft:speed": {
+                        "amplifier": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    },
+                    "minecraft:resistance": {
+                        "amplifier": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    },
+                    "minecraft:haste": {
+                        "amplifier": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    },
+                    "minecraft:regeneration": {
+                        "amplifier": {
+                            "min": 0,
+                            "max": 0
+                        }
+                    },
+                    "minecraft:strength": {
+                        "amplifier": {
+                            "min": 1,
+                            "max": 1
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "parent": "nether/create_full_beacon"
+}
