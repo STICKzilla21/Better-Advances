@@ -1,0 +1,148 @@
+{
+    "display": {
+        "title": {
+            "text": "Genes de Mendel"
+        },
+        "description": {
+            "text": "Reproduce pandas y haz que tengan siete tipos de crías distintas."
+        },
+        "icon": {
+            "item": "minecraft:bamboo"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Pandas1": {
+            "trigger": "minecraft:bred_animals",
+            "conditions": {
+                "child": {
+                    "type": "minecraft:panda",
+                    "nbt": "{MainGene: \"normal\"}"
+                },
+                "parent": {
+                    "type": "minecraft:panda"
+                },
+                "partner": {
+                    "type": "minecraft:panda"
+                }
+            }
+        },
+        "Pandas2": {
+            "trigger": "minecraft:bred_animals",
+            "conditions": {
+                "child": {
+                    "type": "minecraft:panda",
+                    "nbt": "{MainGene: \"aggressive\"}"
+                },
+                "parent": {
+                    "type": "minecraft:panda"
+                },
+                "partner": {
+                    "type": "minecraft:panda"
+                }
+            }
+        },
+        "Pandas3": {
+            "trigger": "minecraft:bred_animals",
+            "conditions": {
+                "child": {
+                    "type": "minecraft:panda",
+                    "nbt": "{MainGene: \"lazy\"}"
+                },
+                "parent": {
+                    "type": "minecraft:panda"
+                },
+                "partner": {
+                    "type": "minecraft:panda"
+                }
+            }
+        },
+        "Pandas4": {
+            "trigger": "minecraft:bred_animals",
+            "conditions": {
+                "child": {
+                    "type": "minecraft:panda",
+                    "nbt": "{MainGene: \"worried\"}"
+                },
+                "parent": {
+                    "type": "minecraft:panda"
+                },
+                "partner": {
+                    "type": "minecraft:panda"
+                }
+            }
+        },
+        "Pandas5": {
+            "trigger": "minecraft:bred_animals",
+            "conditions": {
+                "child": {
+                    "type": "minecraft:panda",
+                    "nbt": "{MainGene: \"playful\"}"
+                },
+                "parent": {
+                    "type": "minecraft:panda"
+                },
+                "partner": {
+                    "type": "minecraft:panda"
+                }
+            }
+        },
+        "Pandas6": {
+            "trigger": "minecraft:bred_animals",
+            "conditions": {
+                "child": {
+                    "type": "minecraft:panda",
+                    "nbt": "{MainGene: \"weak\", HiddenGene: \"weak\"}"
+                },
+                "parent": {
+                    "type": "minecraft:panda"
+                },
+                "partner": {
+                    "type": "minecraft:panda"
+                }
+            }
+        },
+        "Pandas7": {
+            "trigger": "minecraft:bred_animals",
+            "conditions": {
+                "child": {
+                    "type": "minecraft:panda",
+                    "nbt": "{MainGene: \"brown\", HiddenGene: \"brown\"}"
+                },
+                "parent": {
+                    "type": "minecraft:panda"
+                },
+                "partner": {
+                    "type": "minecraft:panda"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "Pandas1"
+        ],
+        [
+            "Pandas2"
+        ],
+        [
+            "Pandas3"
+        ],
+        [
+            "Pandas4"
+        ],
+        [
+            "Pandas5"
+        ],
+        [
+            "Pandas6"
+        ],
+        [
+            "Pandas7"
+        ]
+    ],
+    "parent": "husbandry/breed_an_animal"
+}

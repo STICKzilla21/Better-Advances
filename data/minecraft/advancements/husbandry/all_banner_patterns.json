@@ -1,0 +1,112 @@
+{
+    "display": {
+        "title": {
+            "text": "Recogedor de telas"
+        },
+        "description": {
+            "text": "Consigue todos los patrones de estandarte."
+        },
+        "icon": {
+            "item": "minecraft:skull_banner_pattern"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "Pattern1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:skull_banner_pattern"
+                        ]
+                    }
+                ]
+            }
+        },
+        "Pattern2": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:globe_banner_pattern"
+                        ]
+                    }
+                ]
+            }
+        },
+        "Pattern3": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:flower_banner_pattern"
+                        ]
+                    }
+                ]
+            }
+        },
+        "Pattern4": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:mojang_banner_pattern"
+                        ]
+                    }
+                ]
+            }
+        },
+        "Pattern5": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:piglin_banner_pattern"
+                        ]
+                    }
+                ]
+            }
+        },
+        "Pattern6": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:creeper_banner_pattern"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "Pattern1"
+        ],
+        [
+            "Pattern2"
+        ],
+        [
+            "Pattern3"
+        ],
+        [
+            "Pattern4"
+        ],
+        [
+            "Pattern5"
+        ],
+        [
+            "Pattern6"
+        ]
+    ],
+    "parent": "husbandry/banner_pattern"
+}

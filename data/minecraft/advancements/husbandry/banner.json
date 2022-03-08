@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text": "Marcando terreno"
+        },
+        "description": {
+            "text": "Coloca un estandarte."
+        },
+        "icon": {
+            "item": "minecraft:red_banner"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Banner": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "item": {
+                    "tag": "banners"
+                }
+            }
+        }
+    },
+    "parent": "husbandry/loom"
+}
