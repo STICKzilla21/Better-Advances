@@ -1,10 +1,10 @@
 {
     "display": {
         "title": {
-            "text": "Genes de Mendel"
+            "text": "Mendel's Genes"
         },
         "description": {
-            "text": "Reproduce pandas y haz que tengan siete tipos de crías distintas."
+            "text": "Breed pandas and make them have seven different types of offspring"
         },
         "icon": {
             "item": "minecraft:bamboo"
