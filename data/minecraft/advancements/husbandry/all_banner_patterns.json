@@ -1,10 +1,10 @@
 {
     "display": {
         "title": {
-            "text": "Recogedor de telas"
+            "text": "Cloth Catcher"
         },
         "description": {
-            "text": "Consigue todos los patrones de estandarte."
+            "text": "Obtain all banner patterns"
         },
         "icon": {
             "item": "minecraft:skull_banner_pattern"
