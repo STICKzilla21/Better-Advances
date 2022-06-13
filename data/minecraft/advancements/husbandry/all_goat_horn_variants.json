@@ -1,0 +1,150 @@
+{
+    "display": {
+        "title": {
+            "text": "Orchestra Director"
+        },
+        "description": {
+            "text": "Obtain all the goat horns"
+        },
+        "icon": {
+            "item": "minecraft:goat_horn"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "GoatHorn1": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{instrument:\"minecraft:ponder_goat_horn\"}",
+                        "items": [
+                            "minecraft:goat_horn"
+                        ]
+                    }
+                ]
+            }
+        },
+        "GoatHorn2": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{instrument:\"minecraft:sing_goat_horn\"}",
+                        "items": [
+                            "minecraft:goat_horn"
+                        ]
+                    }
+                ]
+            }
+        },
+        "GoatHorn3": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{instrument:\"minecraft:seek_goat_horn\"}",
+                        "items": [
+                            "minecraft:goat_horn"
+                        ]
+                    }
+                ]
+            }
+        },
+        "GoatHorn4": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{instrument:\"minecraft:feel_goat_horn\"}",
+                        "items": [
+                            "minecraft:goat_horn"
+                        ]
+                    }
+                ]
+            }
+        },
+        "GoatHorn5": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{instrument:\"minecraft:admire_goat_horn\"}",
+                        "items": [
+                            "minecraft:goat_horn"
+                        ]
+                    }
+                ]
+            }
+        },
+        "GoatHorn6": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{instrument:\"minecraft:call_goat_horn\"}",
+                        "items": [
+                            "minecraft:goat_horn"
+                        ]
+                    }
+                ]
+            }
+        },
+        "GoatHorn7": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{instrument:\"minecraft:yearn_goat_horn\"}",
+                        "items": [
+                            "minecraft:goat_horn"
+                        ]
+                    }
+                ]
+            }
+        },
+        "GoatHorn8": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{instrument:\"minecraft:dream_goat_horn\"}",
+                        "items": [
+                            "minecraft:goat_horn"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "GoatHorn1"
+        ],
+        [
+            "GoatHorn2"
+        ],
+        [
+            "GoatHorn3"
+        ],
+        [
+            "GoatHorn4"
+        ],
+        [
+            "GoatHorn5"
+        ],
+        [
+            "GoatHorn6"
+        ],
+        [
+            "GoatHorn7"
+        ],
+        [
+            "GoatHorn8"
+        ]
+    ],
+    "parent": "husbandry/goat_horn"
+}

@@ -18,8 +18,12 @@
         "NetherFossils": {
             "trigger": "minecraft:location",
             "conditions": {
-                "dimension": "the_nether",
-                "feature": "nether_fossil"
+                "player": {
+                    "location": {
+                        "dimension": "the_nether",
+                        "structure": "minecraft:nether_fossil"
+                    }
+                }
             }
         }
     },

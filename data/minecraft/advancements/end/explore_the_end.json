@@ -35,31 +35,51 @@
         "EndBiomes1": {
             "trigger": "minecraft:location",
             "conditions": {
-                "biome": "minecraft:the_end"
+                "player": {
+                    "location": {
+                        "biome": "minecraft:the_end"
+                    }
+                }
             }
         },
         "EndBiomes2": {
             "trigger": "minecraft:location",
             "conditions": {
-                "biome": "minecraft:small_end_islands"
+                "player": {
+                    "location": {
+                        "biome": "minecraft:small_end_islands"
+                    }
+                }
             }
         },
         "EndBiomes3": {
             "trigger": "minecraft:location",
             "conditions": {
-                "biome": "minecraft:end_midlands"
+                "player": {
+                    "location": {
+                        "biome": "minecraft:end_midlands"
+                    }
+                }
             }
         },
         "EndBiomes4": {
             "trigger": "minecraft:location",
             "conditions": {
-                "biome": "minecraft:end_highlands"
+                "player": {
+                    "location": {
+                        "biome": "minecraft:end_highlands"
+                    }
+                }
             }
         },
         "EndBiomes5": {
             "trigger": "minecraft:location",
             "conditions": {
-                "biome": "minecraft:end_barrens"
+                "player": {
+                    "location": {
+                        "biome": "minecraft:end_barrens"
+                    }
+                }
             }
         }
     },
