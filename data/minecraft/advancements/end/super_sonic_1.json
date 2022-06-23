@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "elytra": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:elytra"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "minecraft:super_sonic/start_testing"
+    },
+    "parent": "end/super_sonic"
+}

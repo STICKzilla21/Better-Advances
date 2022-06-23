@@ -1,0 +1,11 @@
+{
+    "criteria": {
+        "minecart": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "rewards": {
+        "function": "minecraft:minecart_travel/start_testing"
+    },
+    "parent": "adventure/minecraft_travel"
+}

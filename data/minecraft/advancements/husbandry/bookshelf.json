@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Librarian"
+        },
+        "description": {
+            "text": "Build some bookshelves to improve your enchantment table"
+        },
+        "icon": {
+            "item": "minecraft:bookshelf"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "husbandry/leather"
+}

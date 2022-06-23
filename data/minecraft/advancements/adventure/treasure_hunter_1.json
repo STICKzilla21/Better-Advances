@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "monument": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "feature": "monument"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "minecraft:treasure_hunter/start_testing_1"
+    },
+    "parent": "adventure/treasure_hunter"
+}

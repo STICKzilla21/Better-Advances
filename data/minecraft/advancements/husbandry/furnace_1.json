@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "furnace": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:furnace"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "minecraft:furnace/start_testing"
+    },
+    "parent": "husbandry/furnace"
+}

@@ -1,0 +1,26 @@
+{
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "title": {
+            "text": "On A Rail"
+        },
+        "description": {
+            "text": "Travel by minecart to a point at least 500m in a single direction from where you started"
+        },
+        "icon": {
+            "item": "minecraft:rail"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "rewards": {
+        "experience": 50
+    },
+    "parent": "adventure/freight_station"
+}

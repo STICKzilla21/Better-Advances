@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "bookshelf": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:bookshelf"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "minecraft:bookshelf/start_testing"
+    },
+    "parent": "husbandry/bookshelf"
+}

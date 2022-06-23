@@ -1,0 +1,11 @@
+{
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "rewards": {
+        "function": "minecraft:trampoline/start_testing"
+    },
+    "parent": "adventure/trampoline"
+}

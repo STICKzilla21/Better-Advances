@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "sponge": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:sponge"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "minecraft:dry_wet_sponge/start_testing"
+    },
+    "parent": "adventure/dry_wet_sponge"
+}

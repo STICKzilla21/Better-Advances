@@ -1,0 +1,39 @@
+{
+    "criteria": {
+        "conduit": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:conduit"
+            }
+        },
+        "conduit_power": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:conduit_power": {
+                        "duration": {
+                            "min": 1,
+                            "max": 9999999
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Moskstraumen"
+        },
+        "description": {
+            "text": "Activate a conduit"
+        },
+        "icon": {
+            "item": "minecraft:conduit"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "adventure/loot_buried_treasure"
+}

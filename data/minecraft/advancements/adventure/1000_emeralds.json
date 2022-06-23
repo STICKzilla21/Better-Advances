@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Master Trader"
+        },
+        "description": {
+            "text": "Trade for 1,000 emeralds"
+        },
+        "icon": {
+            "item": "minecraft:emerald_block"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "adventure/30_emeralds"
+}

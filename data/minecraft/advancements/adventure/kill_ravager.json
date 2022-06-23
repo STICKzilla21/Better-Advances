@@ -1,0 +1,33 @@
+{
+    "criteria": {
+        "ravager": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:ravager"
+                },
+                "killing_blow": {
+                    "source_entity": {
+                        "type": "minecraft:player"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "text": "Kill a Ravager"
+        },
+        "frame": "goal",
+        "hidden": false,
+        "icon": {
+            "item": "minecraft:saddle"
+        },
+        "show_toast": true,
+        "title": {
+            "text": "Kill the Beast!"
+        }
+    },
+    "parent": "adventure/sound_the_alarm"
+}

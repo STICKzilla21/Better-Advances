@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Free Diver"
+        },
+        "description": {
+            "text": "Stay underwater for 2 minutes"
+        },
+        "icon": {
+            "item": "minecraft:turtle_helmet"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "husbandry/turtle_helmet"
+}

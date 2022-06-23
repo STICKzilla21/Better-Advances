@@ -1,0 +1,11 @@
+{
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "rewards": {
+        "function": "minecraft:100_days/start_testing"
+    },
+    "parent": "adventure/100_days"
+}

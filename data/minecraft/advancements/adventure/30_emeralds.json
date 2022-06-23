@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "title": {
+            "text": "The Haggler"
+        },
+        "description": {
+            "text": "Mine or purchase 30 Emeralds"
+        },
+        "icon": {
+            "item": "minecraft:emerald"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "adventure/buy_low_sell_high"
+}

@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "emerald": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:emerald"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "minecraft:1000_emeralds/start_testing"
+    },
+    "parent": "adventure/1000_emeralds"
+}
