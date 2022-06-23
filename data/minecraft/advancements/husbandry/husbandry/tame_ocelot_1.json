@@ -1,0 +1,38 @@
+{
+    "criteria": {
+        "cod": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:cod"
+                        ]
+                    }
+                ]
+            }
+        },
+        "salmon": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:salmon"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "cod",
+            "salmon"
+        ]
+    ],
+    "rewards": {
+        "function": "minecraft:tame_ocelot/start_testing"
+    },
+    "parent": "husbandry/tame_ocelot"
+}

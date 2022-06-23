@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "food": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "tag": "minecraft:food"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "minecraft:eat_dried_kelp/reset"
+    },
+    "parent": "husbandry/eat_dried_kelp"
+}

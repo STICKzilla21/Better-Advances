@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Castaway"
+        },
+        "description": {
+            "text": "Eat nothing but dried kelp for three in-game days"
+        },
+        "icon": {
+            "item": "minecraft:dried_kelp"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "husbandry/eat_rotten_flesh"
+}

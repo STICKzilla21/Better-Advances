@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "lead": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:lead"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "minecraft:llama_caravan/start_testing"
+    },
+    "parent": "husbandry/llama_caravan"
+}

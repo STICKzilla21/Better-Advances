@@ -1,0 +1,92 @@
+{
+    "display": {
+        "title": {
+            "text": "Creating Life"
+        },
+        "description": {
+            "text": "Throw some food at a villager, they will soon start to breed"
+        },
+        "icon": {
+            "item": "minecraft:bread"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "BreedVillagers1": {
+            "trigger": "minecraft:thrown_item_picked_up_by_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager"
+                },
+                "item": {
+                    "count": {
+                        "min": 5
+                    },
+                    "items": [
+                        "minecraft:carrot"
+                    ]
+                }
+            }
+        },
+        "BreedVillagers2": {
+            "trigger": "minecraft:thrown_item_picked_up_by_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager"
+                },
+                "item": {
+                    "count": {
+                        "min": 5
+                    },
+                    "items": [
+                        "minecraft:potato"
+                    ]
+                }
+            }
+        },
+        "BreedVillagers3": {
+            "trigger": "minecraft:thrown_item_picked_up_by_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager"
+                },
+                "item": {
+                    "count": {
+                        "min": 5
+                    },
+                    "items": [
+                        "minecraft:bread"
+                    ]
+                }
+            }
+        },
+        "BreedVillagers4": {
+            "trigger": "minecraft:thrown_item_picked_up_by_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager"
+                },
+                "item": {
+                    "count": {
+                        "min": 5
+                    },
+                    "items": [
+                        "minecraft:wheat"
+                    ]
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "BreedVillagers1",
+            "BreedVillagers2",
+            "BreedVillagers3",
+            "BreedVillagers4"
+        ]
+    ],
+    "parent": "husbandry/breed_an_animal"
+}

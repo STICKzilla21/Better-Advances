@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Smelt Everything!"
+        },
+        "description": {
+            "text": "Connect three chests to a single furnace using three hoppers"
+        },
+        "icon": {
+            "item": "minecraft:hopper"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "husbandry/renewable_energy"
+}

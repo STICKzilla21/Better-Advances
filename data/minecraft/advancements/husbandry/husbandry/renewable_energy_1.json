@@ -1,0 +1,11 @@
+{
+    "criteria": {
+        "charcoal": {
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "rewards": {
+        "function": "minecraft:renewable_energy/start_testing"
+    },
+    "parent": "husbandry/renewable_energy"
+}

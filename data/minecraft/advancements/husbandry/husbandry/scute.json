@@ -1,0 +1,32 @@
+{
+    "display": {
+        "title": {
+            "text": "Slow But Steady"
+        },
+        "description": {
+            "text": "Get a scute from a turtle"
+        },
+        "icon": {
+            "item": "minecraft:scute"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "Scute": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:scute"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "husbandry/seagrass"
+}

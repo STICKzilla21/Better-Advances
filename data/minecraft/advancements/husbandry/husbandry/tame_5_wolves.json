@@ -1,0 +1,35 @@
+{
+    "criteria": {
+        "impossible1": {
+            "trigger": "minecraft:impossible"
+        },
+        "impossible2": {
+            "trigger": "minecraft:impossible"
+        },
+        "impossible3": {
+            "trigger": "minecraft:impossible"
+        },
+        "impossible4": {
+            "trigger": "minecraft:impossible"
+        },
+        "impossible5": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "text": "Befriend five Wolves"
+        },
+        "frame": "goal",
+        "hidden": false,
+        "icon": {
+            "item": "minecraft:bone"
+        },
+        "show_toast": true,
+        "title": {
+            "text": "Leader Of The Pack"
+        }
+    },
+    "parent": "husbandry/tame_an_animal"
+}

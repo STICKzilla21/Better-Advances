@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "Hairy and Armed"
+        },
+        "description": {
+            "text": "Throw a netherite sword at a fox"
+        },
+        "icon": {
+            "item": "minecraft:netherite_sword"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "FoxSword": {
+            "trigger": "minecraft:thrown_item_picked_up_by_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:fox"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:netherite_sword"
+                    ]
+                }
+            }
+        }
+    },
+    "parent": "husbandry/distract_fox"
+}

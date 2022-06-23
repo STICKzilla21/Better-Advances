@@ -1,0 +1,28 @@
+{
+    "criteria": {
+        "horse": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:horse"
+                }
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Saddle Up"
+        },
+        "description": {
+            "text": "Tame a horse"
+        },
+        "icon": {
+            "item": "minecraft:apple"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "husbandry/tame_an_animal"
+}

@@ -1,0 +1,46 @@
+{
+    "display": {
+        "title": {
+            "text": "Sea Master"
+        },
+        "description": {
+            "text": "Brew a Master Turtle Potion"
+        },
+        "icon": {
+            "item": "minecraft:potion",
+            "nbt": "{Potion:turtle_master}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "TurtleMaster1": {
+            "trigger": "minecraft:brewed_potion",
+            "conditions": {
+                "potion": "minecraft:turtle_master"
+            }
+        },
+        "TurtleMaster2": {
+            "trigger": "minecraft:brewed_potion",
+            "conditions": {
+                "potion": "minecraft:strong_turtle_master"
+            }
+        },
+        "TurtleMaster3": {
+            "trigger": "minecraft:brewed_potion",
+            "conditions": {
+                "potion": "minecraft:long_turtle_master"
+            }
+        }
+    },
+    "requirements": [
+        [
+            "TurtleMaster1",
+            "TurtleMaster2",
+            "TurtleMaster3"
+        ]
+    ],
+    "parent": "husbandry/turtle_helmet"
+}

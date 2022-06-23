@@ -1,0 +1,54 @@
+{
+    "display": {
+        "title": {
+            "text": "Cold and Heat"
+        },
+        "description": {
+            "text": "Breeds two red foxes and two arctic foxes"
+        },
+        "icon": {
+            "item": "minecraft:sweet_berries"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "RedFoxes": {
+            "trigger": "minecraft:bred_animals",
+            "conditions": {
+                "parent": {
+                    "type": "minecraft:fox",
+                    "nbt": "{Type:red}"
+                },
+                "partner": {
+                    "type": "minecraft:fox",
+                    "nbt": "{Type:red}"
+                }
+            }
+        },
+        "ArticFoxes": {
+            "trigger": "minecraft:bred_animals",
+            "conditions": {
+                "parent": {
+                    "type": "minecraft:fox",
+                    "nbt": "{Type:snow}"
+                },
+                "partner": {
+                    "type": "minecraft:fox",
+                    "nbt": "{Type:snow}"
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "RedFoxes"
+        ],
+        [
+            "ArticFoxes"
+        ]
+    ],
+    "parent": "husbandry/distract_fox"
+}

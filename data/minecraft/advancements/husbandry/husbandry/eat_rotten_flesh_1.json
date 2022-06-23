@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "rotten_flesh": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:rotten_flesh"
+                    ]
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "minecraft:rotten_flesh/start_testing"
+    },
+    "parent": "husbandry/eat_rotten_flesh"
+}

@@ -1,0 +1,11 @@
+{
+    "criteria": {
+        "check": {
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "rewards": {
+        "function": "minecraft:disenchant/start_testing"
+    },
+    "parent": "husbandry/disenchant"
+}

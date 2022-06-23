@@ -1,0 +1,18 @@
+{
+    "criteria": {
+        "shears": {
+            "trigger": "minecraft:item_durability_changed",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:shears"
+                    ]
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "minecraft:shears/start_testing"
+    },
+    "parent": "husbandry/shears"
+}
