@@ -1,0 +1,32 @@
+{
+    "display": {
+        "title": {
+            "text": "Get Ready for Jet-Lag"
+        },
+        "description": {
+            "text": "Craft an Eye of Ender"
+        },
+        "icon": {
+            "item": "minecraft:ender_eye"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "EyeOfEnder": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:ender_eye"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "nether/obtain_blaze_rod"
+}

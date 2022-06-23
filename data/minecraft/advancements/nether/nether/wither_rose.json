@@ -1,0 +1,32 @@
+{
+    "display": {
+        "title": {
+            "text": "Poisonous Brambles"
+        },
+        "description": {
+            "text": "Get a Wither rose"
+        },
+        "icon": {
+            "item": "minecraft:wither_rose"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "WitherRose": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:wither_rose"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "nether/summon_wither"
+}
