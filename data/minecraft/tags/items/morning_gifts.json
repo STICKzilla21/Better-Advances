@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:rotten_flesh",
+    "minecraft:string",
+    "minecraft:rabbit_hide",
+    "minecraft:rabbit_foot",
+    "minecraft:feather",
+    "minecraft:chicken",
+    "minecraft:phantom_membrane"
+  ]
+}

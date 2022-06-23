@@ -1,0 +1,1 @@
+execute positioned ~ ~-2 ~ as @e[type=pig,limit=1,dx=1,dy=3,dz=1] run function minecraft:when_pigs_fly/falldamage_check

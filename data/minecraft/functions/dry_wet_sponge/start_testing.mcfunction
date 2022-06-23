@@ -1,0 +1,2 @@
+advancement grant @s[scores={b_cooked_sponge=1..}] only minecraft:adventure/dry_wet_sponge
+advancement revoke @s[advancements={minecraft:adventure/dry_wet_sponge=false}] only minecraft:adventure/dry_wet_sponge_1

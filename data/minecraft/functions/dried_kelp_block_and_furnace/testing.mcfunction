@@ -1,0 +1,1 @@
+execute anchored eyes positioned ^ ^ ^ anchored feet run function minecraft:dried_kelp_block_and_furnace/raycast

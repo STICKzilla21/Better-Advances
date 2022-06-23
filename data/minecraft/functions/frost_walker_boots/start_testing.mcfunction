@@ -1,0 +1,2 @@
+tag @s[nbt={Inventory:[{Slot:100b,tag:{Enchantments:[{id:"minecraft:frost_walker"}]}}]}] add frost_walker_boots
+advancement revoke @s[tag=!frost_walker_boots] only minecraft:adventure/frost_walker_boots_1
