@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Passing the Time"
+        },
+        "description": {
+            "text": "Play for 100 days"
+        },
+        "icon": {
+            "item": "minecraft:clock"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "adventure/sleep_in_bed"
+}

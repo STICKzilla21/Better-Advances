@@ -1,0 +1,33 @@
+{
+    "criteria": {
+        "killed_evoker": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:evoker"
+                },
+                "killing_blow": {
+                    "source_entity": {
+                        "type": "minecraft:player"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "text": "Defeat an Evoker"
+        },
+        "frame": "goal",
+        "hidden": false,
+        "icon": {
+            "item": "minecraft:red_wool"
+        },
+        "show_toast": true,
+        "title": {
+            "text": "Feeling Ill"
+        }
+    },
+    "parent": "adventure/sound_the_alarm"
+}

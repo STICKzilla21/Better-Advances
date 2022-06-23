@@ -1,0 +1,99 @@
+{
+    "criteria": {
+        "zombie": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zombie"
+                },
+                "killing_blow": {
+                    "source_entity": {
+                        "type": "minecraft:player",
+                        "nbt": "{Inventory:[{Slot:103b,id:\"minecraft:zombie_head\"}]}"
+                    }
+                }
+            }
+        },
+        "skeleton": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:skeleton"
+                },
+                "killing_blow": {
+                    "source_entity": {
+                        "nbt": "{Inventory:[{Slot:103b,id:\"minecraft:skeleton_skull\"}]}",
+                        "type": "minecraft:player"
+                    }
+                }
+            }
+        },
+        "creeper": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:creeper"
+                },
+                "killing_blow": {
+                    "source_entity": {
+                        "nbt": "{Inventory:[{Slot:103b,id:\"minecraft:creeper_head\"}]}",
+                        "type": "minecraft:player"
+                    }
+                }
+            }
+        },
+        "wither_skeleton": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:wither_skeleton"
+                },
+                "killing_blow": {
+                    "source_entity": {
+                        "nbt": "{Inventory:[{Slot:103b,id:\"minecraft:wither_skeleton_skull\"}]}",
+                        "type": "minecraft:player"
+                    }
+                }
+            }
+        },
+        "ender_dragon": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:ender_dragon"
+                },
+                "killing_blow": {
+                    "source_entity": {
+                        "type": "minecraft:player",
+                        "nbt": "{Inventory:[{Slot:103b,id:\"minecraft:dragon_head\"}]}"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "Camouflage"
+        },
+        "description": {
+            "text": "Kill a mob while wearing the same type of mob head"
+        },
+        "icon": {
+            "item": "minecraft:zombie_head"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "requirements": [
+        [
+            "zombie",
+            "skeleton",
+            "creeper",
+            "wither_skeleton",
+            "ender_dragon"
+        ]
+    ],
+    "parent": "adventure/kill_a_mob"
+}

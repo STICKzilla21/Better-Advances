@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "display": {
+        "announce_to_chat": true,
+        "description": {
+            "text": "Trade for the best possible price"
+        },
+        "frame": "task",
+        "hidden": false,
+        "icon": {
+            "item": "minecraft:emerald"
+        },
+        "show_toast": true,
+        "title": {
+            "text": "Buy Low, Sell High"
+        }
+    },
+    "parent": "adventure/trade_at_world_height"
+}

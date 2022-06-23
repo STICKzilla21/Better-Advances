@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "conduit": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {
+                "block": "minecraft:conduit"
+            }
+        },
+        "conduit power": {
+            "trigger": "minecraft:effects_changed"
+        }
+    },
+    "rewards": {
+        "function": "minecraft:conduit/start_testing"
+    },
+    "parent": "adventure/conduit"
+}
