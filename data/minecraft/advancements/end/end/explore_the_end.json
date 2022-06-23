@@ -1,0 +1,87 @@
+{
+    "display": {
+        "title": {
+            "text": "Flying Between Islands"
+        },
+        "description": {
+            "text": "Explore all the biomes of The End"
+        },
+        "icon": {
+            "item": "minecraft:chorus_flower"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "requirements": [
+        [
+            "EndBiomes1"
+        ],
+        [
+            "EndBiomes2"
+        ],
+        [
+            "EndBiomes3"
+        ],
+        [
+            "EndBiomes4"
+        ],
+        [
+            "EndBiomes5"
+        ]
+    ],
+    "criteria": {
+        "EndBiomes1": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biome": "minecraft:the_end"
+                    }
+                }
+            }
+        },
+        "EndBiomes2": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biome": "minecraft:small_end_islands"
+                    }
+                }
+            }
+        },
+        "EndBiomes3": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biome": "minecraft:end_midlands"
+                    }
+                }
+            }
+        },
+        "EndBiomes4": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biome": "minecraft:end_highlands"
+                    }
+                }
+            }
+        },
+        "EndBiomes5": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": {
+                    "location": {
+                        "biome": "minecraft:end_barrens"
+                    }
+                }
+            }
+        }
+    },
+    "parent": "end/enter_end_gateway"
+}
