@@ -1,1 +1,0 @@
-tag @s add dried_kelp_block_and_furnace

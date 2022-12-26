@@ -1,4 +1,0 @@
-execute if block ~ ~ ~ furnace{Items:[{Slot:1b,id:"minecraft:charcoal"}]} unless block ~ ~ ~ furnace{Items:[{Slot:2b}]} run function minecraft:renewable_energy/charcoal_loot
-#execute if block ~ ~ ~ furnace{Items:[{Slot:1b,id:"minecraft:charcoal"}]} unless block ~ ~ ~ furnace{Items:[{Slot:2b}]} run say found charcoal in slot 1
-execute if block ~ ~ ~ furnace{Items:[{Slot:1b,id:"minecraft:charcoal"},{Slot:2b,id:"minecraft:charcoal"}]} run function minecraft:renewable_energy/charcoal_loot
-#execute if block ~ ~ ~ furnace{Items:[{Slot:1b,id:"minecraft:charcoal"},{Slot:2b,id:"minecraft:charcoal"}]} run say found charcoal in slot 1

@@ -1,1 +1,0 @@
-tag @s add minecart_travel

@@ -1,1 +1,0 @@
-tag @s add tame_ocelot

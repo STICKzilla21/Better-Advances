@@ -1,1 +1,0 @@
-tag @s add lava_and_furnace
