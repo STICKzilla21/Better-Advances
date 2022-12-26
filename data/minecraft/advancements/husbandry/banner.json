@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:red_banner"
+    },
+    "title": "Marking Territory",
+    "description": "Place a banner",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:husbandry/loom",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "item": {
+          "tag": "minecraft:banners"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:loom"
+    },
+    "title": "Sweet Old Memories",
+    "description": "Place a loom, can be used to customize banners",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "loom": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:loom"
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:carved_pumpkin"
+    },
+    "title": "Carved Vision",
+    "description": "Kill an enderman in the End while using a carved pumpkin as a helmet",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:end/dragon_breath",
+  "criteria": {
+    "carved_pumpkin": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "location": {
+            "dimension": "minecraft:the_end"
+          },
+          "equipment": {
+            "head": {
+              "items": [
+                "minecraft:carved_pumpkin"
+              ]
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:enderman"
+        }
+      }
+    }
+  }
+}

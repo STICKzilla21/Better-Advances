@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:firework_rocket"
+    },
+    "title": "If It Hops It Explodes",
+    "description": "Hit the bullseye of a Target block from at least 50 meters away with a Firework Rocket",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "minecraft:adventure/bullseye",
+  "criteria": {
+    "if_it_hops_it_explodes": {
+      "trigger": "minecraft:target_hit",
+      "conditions": {
+        "projectile": {
+          "type": "minecraft:firework_rocket"
+        },
+        "signal_strength": 10
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

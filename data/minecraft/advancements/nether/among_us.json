@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_helmet"
+    },
+    "title": "Among Us",
+    "description": "Kill a Piglin with a crossbow while wearing the full set of gold armor",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:nether/distract_piglin",
+  "criteria": {
+    "among_us": {
+      "trigger": "minecraft:killed_by_crossbow",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "minecraft:golden_helmet"
+              ]
+            },
+            "chest": {
+              "items": [
+                "minecraft:golden_chestplate"
+              ]
+            },
+            "legs": {
+              "items": [
+                "minecraft:golden_leggings"
+              ]
+            },
+            "feet": {
+              "items": [
+                "minecraft:golden_boots"
+              ]
+            }
+          }
+        },
+        "victims": [
+          {
+            "type": "minecraft:piglin"
+          }
+        ]
+      }
+    }
+  }
+}

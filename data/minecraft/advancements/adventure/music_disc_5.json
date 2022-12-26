@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:music_disc_5"
+    },
+    "title": "Ultrasounds",
+    "description": "Play the Music Disc 5 in a Jukebox",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "minecraft:adventure/loot_ancient_city",
+  "criteria": {
+    "music_disc": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:music_disc_5"
+          ]
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:jukebox"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

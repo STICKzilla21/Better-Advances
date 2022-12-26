@@ -1,0 +1,147 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:bamboo"
+    },
+    "title": "Mendel's Genes",
+    "description": "Breed pandas and make them have seven different types of offspring",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:husbandry/breed_an_animal",
+  "criteria": {
+    "panda_1": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "type": "minecraft:panda"
+        },
+        "partner": {
+          "type": "minecraft:panda"
+        },
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"normal\"}"
+        }
+      }
+    },
+    "panda_2": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "type": "minecraft:panda"
+        },
+        "partner": {
+          "type": "minecraft:panda"
+        },
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"aggressive\"}"
+        }
+      }
+    },
+    "panda_3": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "type": "minecraft:panda"
+        },
+        "partner": {
+          "type": "minecraft:panda"
+        },
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"lazy\"}"
+        }
+      }
+    },
+    "panda_4": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "type": "minecraft:panda"
+        },
+        "partner": {
+          "type": "minecraft:panda"
+        },
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"worried\"}"
+        }
+      }
+    },
+    "panda_5": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "type": "minecraft:panda"
+        },
+        "partner": {
+          "type": "minecraft:panda"
+        },
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"playful\"}"
+        }
+      }
+    },
+    "panda_6": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "type": "minecraft:panda"
+        },
+        "partner": {
+          "type": "minecraft:panda"
+        },
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"weak\", HiddenGene: \"weak\"}"
+        }
+      }
+    },
+    "panda_7": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "parent": {
+          "type": "minecraft:panda"
+        },
+        "partner": {
+          "type": "minecraft:panda"
+        },
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"brown\", HiddenGene: \"brown\"}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "panda_1"
+    ],
+    [
+      "panda_2"
+    ],
+    [
+      "panda_3"
+    ],
+    [
+      "panda_4"
+    ],
+    [
+      "panda_5"
+    ],
+    [
+      "panda_6"
+    ],
+    [
+      "panda_7"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+}

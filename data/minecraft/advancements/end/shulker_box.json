@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:shulker_box"
+    },
+    "title": "Portable Chest",
+    "description": "Craft a Shulker Box with 2 shells",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:end/deflect_shulker_bullet",
+  "criteria": {
+    "shulker_box": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:shulker_box"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

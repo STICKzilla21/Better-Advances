@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:filled_map",
+      "nbt": "{display:{MapColor:3830373}}"
+    },
+    "title": "Treasure Hunter",
+    "description": "Acquire a map from a cartographer villager",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/trade",
+  "criteria": {
+    "map_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:filled_map"
+            ],
+            "nbt": "{display:{MapColor:3830373}}"
+          }
+        ]
+      }
+    },
+    "map_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:filled_map"
+            ],
+            "nbt": "{display:{MapColor:5393476}}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "map_1",
+      "map_2"
+    ]
+  ]
+}

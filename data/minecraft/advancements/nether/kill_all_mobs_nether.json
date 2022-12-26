@@ -1,0 +1,91 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:gold_nugget"
+    },
+    "title": "Demon Hunter",
+    "description": "Kill one of each creature that inhabits the Nether",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:nether/kill_hoglin",
+  "criteria": {
+    "demon_hunter_1": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:blaze"
+        }
+      }
+    },
+    "demon_hunter_2": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:ghast"
+        }
+      }
+    },
+    "demon_hunter_3": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:zombified_piglin"
+        }
+      }
+    },
+    "demon_hunter_4": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wither_skeleton"
+        }
+      }
+    },
+    "demon_hunter_5": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:strider"
+        }
+      }
+    },
+    "demon_hunter_6": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        }
+      }
+    },
+    "demon_hunter_7": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin_brute"
+        }
+      }
+    },
+    "demon_hunter_8": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:magma_cube"
+        }
+      }
+    },
+    "demon_hunter_9": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:hoglin"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

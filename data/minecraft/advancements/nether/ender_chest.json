@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:ender_chest"
+    },
+    "title": "Visionary Chest",
+    "description": "Craft an ender chest, it is useful for storing things of great value",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:nether/ender_eye",
+  "criteria": {
+    "ender_chest": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:ender_chest"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

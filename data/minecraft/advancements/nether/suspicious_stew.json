@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:suspicious_stew"
+    },
+    "title": "Suspicious",
+    "description": "Eat a suspicious stew made with a Wither rose",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "minecraft:nether/wither_rose",
+  "criteria": {
+    "suspicious": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:suspicious_stew"
+          ],
+          "nbt": "{Effects:[{EffectId:20b,EffectDuration:160}]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

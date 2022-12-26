@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_hoe"
+    },
+    "title": "Nice Job",
+    "description": "Use a netherite hoe until it breaks... and stop rethinking your life... just enjoy it",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "minecraft:husbandry/obtain_netherite_hoe",
+  "criteria": {
+    "netherite_hoe": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "durability": 0,
+        "item": {
+          "items": [
+            "minecraft:netherite_hoe"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 200
+  }
+}

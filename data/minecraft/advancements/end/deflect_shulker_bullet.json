@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:shield"
+    },
+    "title": "Antilevitation",
+    "description": "Deflect a Shulker's bullet",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:end/find_end_city",
+  "criteria": {
+    "shulker_bullet": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": true,
+          "source_entity": {
+            "type": "minecraft:shulker"
+          }
+        }
+      }
+    }
+  }
+}

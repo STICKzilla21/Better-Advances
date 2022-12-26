@@ -1,0 +1,76 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:phantom_membrane"
+    },
+    "title": "Sewing My Wings",
+    "description": "Repair an elytra with phantom membranes",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:end/elytra",
+  "criteria": {
+    "elytra_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:elytra"
+            ],
+            "nbt": "{RepairCost:1}"
+          }
+        ]
+      }
+    },
+    "elytra_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:elytra"
+            ],
+            "nbt": "{RepairCost:3}"
+          }
+        ]
+      }
+    },
+    "elytra_3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:elytra"
+            ],
+            "nbt": "{RepairCost:7}"
+          }
+        ]
+      }
+    },
+    "elytra_4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:elytra"
+            ],
+            "nbt": "{RepairCost:15}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "elytra_1",
+      "elytra_2",
+      "elytra_3",
+      "elytra_4"
+    ]
+  ]
+}

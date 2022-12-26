@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_axe"
+    },
+    "title": "Ax Duel",
+    "description": "Kill a Piglin Brute with a golden axe",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:nether/find_bastion",
+  "criteria": {
+    "piglin_brute": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "mainhand": {
+              "items": [
+                "minecraft:golden_axe"
+              ]
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:piglin_brute"
+        }
+      }
+    }
+  }
+}

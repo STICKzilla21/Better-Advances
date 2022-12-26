@@ -1,0 +1,113 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:creeper_head"
+    },
+    "title": "Camouflage",
+    "description": "Kill a mob while wearing the same type of mob head",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/kill_a_mob",
+  "criteria": {
+    "head_1": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "minecraft:zombie_head"
+              ]
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:zombie"
+        }
+      }
+    },
+    "head_2": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "minecraft:creeper_head"
+              ]
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:creeper"
+        }
+      }
+    },
+    "head_3": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "minecraft:skeleton_skull"
+              ]
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:skeleton"
+        }
+      }
+    },
+    "head_4": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "minecraft:wither_skeleton_skull"
+              ]
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:wither_skeleton"
+        }
+      }
+    },
+    "head_5": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "minecraft:dragon_head"
+              ]
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:ender_dragon"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "head_1",
+      "head_2",
+      "head_3",
+      "head_4",
+      "head_5"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  }
+}

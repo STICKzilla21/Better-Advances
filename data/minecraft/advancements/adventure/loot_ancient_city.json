@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:trapped_chest"
+    },
+    "title": "Robbing The Dead",
+    "description": "Loot a chest in an Ancient City",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/avoid_vibration",
+  "criteria": {
+    "ancient_city_1": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/ancient_city"
+      }
+    },
+    "ancient_city_2": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "loot_table": "minecraft:chests/ancient_city_ice_box"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "ancient_city_1",
+      "ancient_city_2"
+    ]
+  ]
+}

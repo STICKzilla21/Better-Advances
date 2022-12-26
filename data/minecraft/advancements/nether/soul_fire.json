@@ -1,0 +1,56 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:flint_and_steel"
+    },
+    "title": "The Ideal Repellent",
+    "description": "Use a flint and steel on a block of souls to get a blue fire that will scare the Piglins",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:nether/root",
+  "criteria": {
+    "soul_fire_1": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:flint_and_steel"
+          ]
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:soul_sand"
+            ]
+          }
+        }
+      }
+    },
+    "soul_fire_2": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:flint_and_steel"
+          ]
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:soul_soil"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "soul_fire_1",
+      "soul_fire_2"
+    ]
+  ]
+}
