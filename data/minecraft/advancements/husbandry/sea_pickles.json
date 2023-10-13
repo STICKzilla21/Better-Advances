@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:sea_pickle"
+    },
+    "title": "One Pickles, Two Pickles...",
+    "description": "Place 4 Sea Pickles on the same block under water",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "sea_pickles": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "player": [],
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:sea_pickle"
+              ]
+            }
+          },
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:sea_pickle",
+            "properties": {
+              "pickles": "4",
+              "waterlogged": "true"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

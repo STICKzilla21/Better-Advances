@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:dark_oak_planks"
+    },
+    "title": "Hotel Transylvania",
+    "description": "Enter a dark and risky woodland Mansion",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/treasure_hunter",
+  "criteria": {
+    "mansion": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "minecraft:mansion"
+          }
+        }
+      }
+    }
+  }
+}

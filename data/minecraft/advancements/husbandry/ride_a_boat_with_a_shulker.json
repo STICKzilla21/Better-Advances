@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:jungle_boat"
+    },
+    "title": "The Last of Us",
+    "description": "Get in a Boat and float with a Shulker",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:husbandry/ride_a_boat_with_a_mooshroom",
+  "criteria": {
+    "ride_a_boat_with_a_shulker": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "type": "minecraft:boat",
+            "passenger": {
+              "type": "minecraft:shulker"
+            }
+          }
+        }
+      }
+    }
+  }
+}

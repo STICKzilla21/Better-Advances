@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "title": "Allay Save the Queen",
+    "description": "Have an Allay drop a Totem at a Note Block",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:husbandry/allay_deliver_item_to_player",
+  "criteria": {
+    "totem_allay": {
+      "trigger": "minecraft:allay_drop_item_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:totem_of_undying"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

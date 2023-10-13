@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:goat_horn"
+    },
+    "title": "Looks Like the Owner",
+    "description": "Get a screaming Goat on a Lead",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:husbandry/tame_an_animal",
+  "criteria": {
+    "leash_a_screaming_goat": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:lead"
+          ]
+        },
+        "entity": {
+          "type": "minecraft:goat",
+          "nbt": "{IsScreamingGoat:true}"
+        }
+      }
+    }
+  }
+}

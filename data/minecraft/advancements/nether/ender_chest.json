@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:ender_chest"
+    },
+    "title": "Jet-Lag Chest",
+    "description": "Construct an Ender Chest. It's like an omnipresent inventory",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:nether/obtain_blaze_rod",
+  "criteria": {
+    "ender_chest": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:ender_chest"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

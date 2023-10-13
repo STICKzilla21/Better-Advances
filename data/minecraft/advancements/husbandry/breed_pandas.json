@@ -1,0 +1,222 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:bamboo"
+    },
+    "title": "Mendelian Inheritance",
+    "description": "Breed Pandas and make them have 7 different types of offspring",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:husbandry/breed_an_animal",
+  "criteria": {
+    "breed_pandas_1": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"normal\"}"
+        }
+      }
+    },
+    "breed_pandas_2": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"aggressive\"}"
+        }
+      }
+    },
+    "breed_pandas_3": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"lazy\"}"
+        }
+      }
+    },
+    "breed_pandas_4": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"worried\"}"
+        }
+      }
+    },
+    "breed_pandas_5": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"playful\"}"
+        }
+      }
+    },
+    "breed_pandas_6": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"weak\", HiddenGene: \"weak\"}"
+        }
+      }
+    },
+    "breed_pandas_7": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"brown\", HiddenGene: \"brown\"}"
+        }
+      }
+    },
+    "breed_pandas_8": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"brown\", HiddenGene: \"normal\"}"
+        }
+      }
+    },
+    "breed_pandas_9": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"brown\", HiddenGene: \"agressive\"}"
+        }
+      }
+    },
+    "breed_pandas_10": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"brown\", HiddenGene: \"lazy\"}"
+        }
+      }
+    },
+    "breed_pandas_11": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"brown\", HiddenGene: \"worried\"}"
+        }
+      }
+    },
+    "breed_pandas_12": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"brown\", HiddenGene: \"playful\"}"
+        }
+      }
+    },
+    "breed_pandas_13": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"weak\", HiddenGene: \"normal\"}"
+        }
+      }
+    },
+    "breed_pandas_14": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"weak\", HiddenGene: \"agressive\"}"
+        }
+      }
+    },
+    "breed_pandas_15": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"weak\", HiddenGene: \"lazy\"}"
+        }
+      }
+    },
+    "breed_pandas_16": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"weak\", HiddenGene: \"worried\"}"
+        }
+      }
+    },
+    "breed_pandas_17": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"weak\", HiddenGene: \"playful\"}"
+        }
+      }
+    },
+    "breed_pandas_18": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"brown\", HiddenGene: \"weak\"}"
+        }
+      }
+    },
+    "breed_pandas_19": {
+      "trigger": "minecraft:bred_animals",
+      "conditions": {
+        "child": {
+          "type": "minecraft:panda",
+          "nbt": "{MainGene: \"weak\", HiddenGene: \"brown\"}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "breed_pandas_1",
+      "breed_pandas_8",
+      "breed_pandas_9",
+      "breed_pandas_10",
+      "breed_pandas_11",
+      "breed_pandas_12",
+      "breed_pandas_13",
+      "breed_pandas_14",
+      "breed_pandas_15",
+      "breed_pandas_16",
+      "breed_pandas_17",
+      "breed_pandas_18",
+      "breed_pandas_19"
+    ],
+    [
+      "breed_pandas_2"
+    ],
+    [
+      "breed_pandas_3"
+    ],
+    [
+      "breed_pandas_4"
+    ],
+    [
+      "breed_pandas_5"
+    ],
+    [
+      "breed_pandas_6"
+    ],
+    [
+      "breed_pandas_7"
+    ]
+  ]
+}

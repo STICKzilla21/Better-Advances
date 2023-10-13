@@ -1,0 +1,90 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:eye_armor_trim_smithing_template"
+    },
+    "title": "Smithing with Power",
+    "description": "Apply these smithing templates at least once: Sentry, Wild, Coast, Dune, Raiser, Shaper, Host, Eye",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/trim_with_any_armor_pattern",
+  "criteria": {
+    "smithing_with_power_1": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:sentry_armor_trim_smithing_template_smithing_trim"
+      }
+    },
+    "smithing_with_power_2": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:wild_armor_trim_smithing_template_smithing_trim"
+      }
+    },
+    "smithing_with_power_3": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:coast_armor_trim_smithing_template_smithing_trim"
+      }
+    },
+    "smithing_with_power_4": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:dune_armor_trim_smithing_template_smithing_trim"
+      }
+    },
+    "smithing_with_power_5": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:raiser_armor_trim_smithing_template_smithing_trim"
+      }
+    },
+    "smithing_with_power_6": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:shaper_armor_trim_smithing_template_smithing_trim"
+      }
+    },
+    "smithing_with_power_7": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:host_armor_trim_smithing_template_smithing_trim"
+      }
+    },
+    "smithing_with_power_8": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "minecraft:eye_armor_trim_smithing_template_smithing_trim"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "smithing_with_power_1"
+    ],
+    [
+      "smithing_with_power_2"
+    ],
+    [
+      "smithing_with_power_3"
+    ],
+    [
+      "smithing_with_power_4"
+    ],
+    [
+      "smithing_with_power_5"
+    ],
+    [
+      "smithing_with_power_6"
+    ],
+    [
+      "smithing_with_power_7"
+    ],
+    [
+      "smithing_with_power_8"
+    ]
+  ]
+}

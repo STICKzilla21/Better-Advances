@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:acacia_boat"
+    },
+    "title": "Prevention Is Better Than Cure",
+    "description": "Get in a Boat and float with a Guardian",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "minecraft:husbandry/ride_a_boat_with_a_shulker",
+  "criteria": {
+    "ride_a_boat_with_a_guardian": {
+      "trigger": "minecraft:started_riding",
+      "conditions": {
+        "player": {
+          "vehicle": {
+            "type": "minecraft:boat",
+            "passenger": {
+              "type": "minecraft:guardian"
+            }
+          }
+        }
+      }
+    }
+  }
+}

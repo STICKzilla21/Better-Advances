@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:beehive"
+    },
+    "title": "Playful Cetacean",
+    "description": "Play with a Dolphin and a full Bee Nest or Beehive",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:husbandry/silk_touch_nest",
+  "criteria": {
+    "dolphin_and_bees_1": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:dolphin"
+        },
+        "item": {
+          "items": [
+            "minecraft:bee_nest"
+          ],
+          "nbt": "{BlockEntityTag:{id:\"minecraft:beehive\",Bees: [{EntityData:{id:\"minecraft:bee\"}},{EntityData:{id:\"minecraft:bee\"}},{EntityData:{id:\"minecraft:bee\"}}]}}"
+        }
+      }
+    },
+    "dolphin_and_bees_2": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:dolphin"
+        },
+        "item": {
+          "items": [
+            "minecraft:beehive"
+          ],
+          "nbt": "{BlockEntityTag:{id:\"minecraft:beehive\",Bees: [{EntityData:{id:\"minecraft:bee\"}},{EntityData:{id:\"minecraft:bee\"}},{EntityData:{id:\"minecraft:bee\"}}]}}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "dolphin_and_bees_1",
+      "dolphin_and_bees_2"
+    ]
+  ]
+}

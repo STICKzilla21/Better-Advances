@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:conduit"
+    },
+    "title": "Moskstraumen",
+    "description": "Place a conduit in a valid structure to receive the Conduit Power",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/conduit",
+  "criteria": {
+    "conduit_power": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:conduit_power": {}
+        }
+      }
+    }
+  }
+}

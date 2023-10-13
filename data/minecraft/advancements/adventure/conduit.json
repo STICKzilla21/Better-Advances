@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:conduit"
+    },
+    "title": "My Tube",
+    "description": "Construct a Conduit with a Heart of the Sea and Nautilus Shells",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/loot_buried_treasure",
+  "criteria": {
+    "conduit": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:conduit"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

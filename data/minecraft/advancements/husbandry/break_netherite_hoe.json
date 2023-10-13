@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_hoe"
+    },
+    "title": "Nice Job",
+    "description": "Break a Netherite Hoe, and stop reevaluating your life choices, just enjoy it",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "minecraft:husbandry/obtain_netherite_hoe",
+  "criteria": {
+    "break_netherite_hoe": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "durability": 0,
+        "item": {
+          "items": [
+            "minecraft:netherite_hoe"
+          ]
+        }
+      }
+    }
+  }
+}

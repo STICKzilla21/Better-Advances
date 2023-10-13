@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:firework_rocket"
+    },
+    "title": "Below The End",
+    "description": "Fly below The End island. Try using Firework Rockets, it never hurts.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:end/elytra",
+  "criteria": {
+    "below_the_end": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "x": {
+                    "min": -80,
+                    "max": 80
+                  },
+                  "y": {
+                    "min": -100,
+                    "max": -15
+                  },
+                  "z": {
+                    "min": -80,
+                    "max": 80
+                  }
+                },
+                "dimension": "minecraft:the_end"
+              },
+              "equipment": {
+                "chest": {
+                  "items": [
+                    "minecraft:elytra"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

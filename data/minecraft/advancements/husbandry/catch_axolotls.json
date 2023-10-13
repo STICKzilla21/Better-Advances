@@ -1,0 +1,89 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:axolotl_bucket",
+      "nbt": "{Variant:4}"
+    },
+    "title": "Cleaning Waters",
+    "description": "Catch all types of Axolotls!",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:husbandry/axolotl_in_a_bucket",
+  "criteria": {
+    "catch_axolotls_1": {
+      "trigger": "minecraft:filled_bucket",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:axolotl_bucket"
+          ],
+          "nbt": "{Variant:0}"
+        }
+      }
+    },
+    "catch_axolotls_2": {
+      "trigger": "minecraft:filled_bucket",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:axolotl_bucket"
+          ],
+          "nbt": "{Variant:1}"
+        }
+      }
+    },
+    "catch_axolotls_3": {
+      "trigger": "minecraft:filled_bucket",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:axolotl_bucket"
+          ],
+          "nbt": "{Variant:2}"
+        }
+      }
+    },
+    "catch_axolotls_4": {
+      "trigger": "minecraft:filled_bucket",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:axolotl_bucket"
+          ],
+          "nbt": "{Variant:3}"
+        }
+      }
+    },
+    "catch_axolotls_5": {
+      "trigger": "minecraft:filled_bucket",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:axolotl_bucket"
+          ],
+          "nbt": "{Variant:4}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "catch_axolotls_1"
+    ],
+    [
+      "catch_axolotls_2"
+    ],
+    [
+      "catch_axolotls_3"
+    ],
+    [
+      "catch_axolotls_4"
+    ],
+    [
+      "catch_axolotls_5"
+    ]
+  ]
+}

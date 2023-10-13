@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_sword"
+    },
+    "title": "El Zorro",
+    "description": "Throw the best possible sword at a Fox and... be careful",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:husbandry/distract_fox",
+  "criteria": {
+    "fox_sword": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:fox"
+        },
+        "item": {
+          "items": [
+            "minecraft:netherite_sword"
+          ],
+          "nbt": "{Enchantments: [{lvl: 1s, id: \"minecraft:mending\"}, {lvl: 3s, id: \"minecraft:unbreaking\"}, {lvl: 3s, id: \"minecraft:looting\"}, {lvl: 2s, id: \"minecraft:fire_aspect\"}, {lvl: 3s, id: \"minecraft:sweeping\"}, {lvl: 5s, id: \"minecraft:sharpness\"}, {lvl: 2s, id: \"minecraft:knockback\"}]}"
+        }
+      }
+    }
+  }
+}

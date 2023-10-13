@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:turtle_egg"
+    },
+    "title": "Splinter and Turtles",
+    "description": "Place four Turtle Eggs on the same block. Careful not to crush them",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:husbandry/sea_pickles",
+  "criteria": {
+    "turtle_eggs": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:turtle_egg"
+              ]
+            }
+          },
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:turtle_egg",
+            "properties": {
+              "eggs": "4"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

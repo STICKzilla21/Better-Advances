@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:wet_sponge"
+    },
+    "title": "The Deep Ending",
+    "description": "Enter a deep and dangerous ocean Monument",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/treasure_hunter",
+  "criteria": {
+    "monument": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "structure": "minecraft:monument"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:trident"
+    },
+    "title": "Charged Terror",
+    "description": "Strike a Creeper with lightining and... run!",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/throw_trident",
+  "criteria": {
+    "charged_creeper": {
+      "trigger": "minecraft:channeled_lightning",
+      "conditions": {
+        "victims": [
+          {
+            "type": "minecraft:creeper"
+          }
+        ]
+      }
+    }
+  }
+}

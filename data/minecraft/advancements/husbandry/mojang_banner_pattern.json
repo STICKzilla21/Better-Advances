@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:mojang_banner_pattern"
+    },
+    "title": "Fruit on the Loom",
+    "description": "Make a Banner using an Enchanted Golden Apple... wait, did really do that?",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "minecraft:husbandry/balanced_diet",
+  "criteria": {
+    "mojang_banner_pattern": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:banners",
+            "nbt": "{BlockEntityTag: {Patterns: [{Pattern: \"moj\"}]}}"
+          }
+        ]
+      }
+    }
+  }
+}

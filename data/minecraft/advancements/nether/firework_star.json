@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:firework_star"
+    },
+    "title": "Summer Festival",
+    "description": "Make a Firework Star with Glowstone Dust and a Diamond",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:nether/glowstone_dust",
+  "criteria": {
+    "firework_star": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:firework_star"
+            ],
+            "nbt": "{Explosion: {Trail: 1b, Flicker: 1b}}"
+          }
+        ]
+      }
+    }
+  }
+}

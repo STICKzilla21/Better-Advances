@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:magma_cream"
+    },
+    "title": "Stayin' Frosty",
+    "description": "Swim in Lava while having the Fire Resistance effect",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:nether/obtain_blaze_rod",
+  "criteria": {
+    "swim_in_lava": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "fluid": {
+              "tag": "minecraft:lava"
+            }
+          }
+        }
+      }
+    }
+  }
+}

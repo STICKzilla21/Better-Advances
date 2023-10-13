@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:spectral_arrow"
+    },
+    "title": "Wraith Forge",
+    "description": "Shoot a Spectral Arrow at a mob",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:nether/glowstone_dust",
+  "criteria": {
+    "spectral_arrow": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "type": "minecraft:spectral_arrow"
+            }
+          }
+        }
+      }
+    }
+  }
+}

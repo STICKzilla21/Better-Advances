@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:recovery_compass"
+    },
+    "title": "Lord of the Compasses",
+    "description": "Construct a Recovery Compass",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/loot_ancient_city",
+  "criteria": {
+    "recovery_compass": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:recovery_compass"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:music_disc_5"
+    },
+    "title": "Ultrasounds",
+    "description": "Construct and play the 5 Music Disc in an Ancient City",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/avoid_vibration",
+  "criteria": {
+    "music_disc_5": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "structure": "minecraft:ancient_city",
+              "block": {
+                "blocks": [
+                  "minecraft:jukebox"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:music_disc_5"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

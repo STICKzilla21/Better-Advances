@@ -1,0 +1,146 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:goat_horn"
+    },
+    "title": "Orchestra Director",
+    "description": "Obtain every Goat Horn and enjoy the sound of nature",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:husbandry/leash_a_screaming_goat",
+  "criteria": {
+    "all_goat_horn_variants_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:goat_horn"
+            ],
+            "nbt": "{instrument:\"minecraft:ponder_goat_horn\"}"
+          }
+        ]
+      }
+    },
+    "all_goat_horn_variants_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:goat_horn"
+            ],
+            "nbt": "{instrument:\"minecraft:sing_goat_horn\"}"
+          }
+        ]
+      }
+    },
+    "all_goat_horn_variants_3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:goat_horn"
+            ],
+            "nbt": "{instrument:\"minecraft:seek_goat_horn\"}"
+          }
+        ]
+      }
+    },
+    "all_goat_horn_variants_4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:goat_horn"
+            ],
+            "nbt": "{instrument:\"minecraft:feel_goat_horn\"}"
+          }
+        ]
+      }
+    },
+    "all_goat_horn_variants_5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:goat_horn"
+            ],
+            "nbt": "{instrument:\"minecraft:admire_goat_horn\"}"
+          }
+        ]
+      }
+    },
+    "all_goat_horn_variants_6": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:goat_horn"
+            ],
+            "nbt": "{instrument:\"minecraft:call_goat_horn\"}"
+          }
+        ]
+      }
+    },
+    "all_goat_horn_variants_7": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:goat_horn"
+            ],
+            "nbt": "{instrument:\"minecraft:yearn_goat_horn\"}"
+          }
+        ]
+      }
+    },
+    "all_goat_horn_variants_8": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:goat_horn"
+            ],
+            "nbt": "{instrument:\"minecraft:dream_goat_horn\"}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "all_goat_horn_variants_1"
+    ],
+    [
+      "all_goat_horn_variants_2"
+    ],
+    [
+      "all_goat_horn_variants_3"
+    ],
+    [
+      "all_goat_horn_variants_4"
+    ],
+    [
+      "all_goat_horn_variants_5"
+    ],
+    [
+      "all_goat_horn_variants_6"
+    ],
+    [
+      "all_goat_horn_variants_7"
+    ],
+    [
+      "all_goat_horn_variants_8"
+    ]
+  ]
+}

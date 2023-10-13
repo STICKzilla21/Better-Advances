@@ -1,0 +1,77 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:salmon"
+    },
+    "title": "Echolocation",
+    "description": "Feed a Dolphin fish to have it lead you to treasure",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:husbandry/fishy_business",
+  "criteria": {
+    "echolocation_1": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": {},
+        "item": {
+          "items": [
+            "minecraft:salmon"
+          ]
+        },
+        "entity": {
+          "type": "minecraft:dolphin"
+        }
+      }
+    },
+    "echolocation_2": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cod"
+          ]
+        },
+        "entity": {
+          "type": "minecraft:dolphin"
+        }
+      }
+    },
+    "echolocation_3": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:tropical_fish"
+          ]
+        },
+        "entity": {
+          "type": "minecraft:dolphin"
+        }
+      }
+    },
+    "echolocation_4": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:pufferfish"
+          ]
+        },
+        "entity": {
+          "type": "minecraft:dolphin"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "echolocation_1",
+      "echolocation_2",
+      "echolocation_3",
+      "echolocation_4"
+    ]
+  ]
+}

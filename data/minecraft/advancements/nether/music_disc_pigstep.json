@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:music_disc_pigstep"
+    },
+    "title": "Hot Beat!",
+    "description": "Find and play the Pigstep Music Disc in a Jukebox",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:nether/loot_bastion",
+  "criteria": {
+    "music_disc_pigstep": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:block_state_property",
+            "block": "minecraft:jukebox",
+            "properties": {}
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:music_disc_pigstep"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

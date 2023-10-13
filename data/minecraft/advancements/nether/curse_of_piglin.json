@@ -1,0 +1,400 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_chestplate"
+    },
+    "title": "Curse of Piglin",
+    "description": "Distract a Piglin with some cursed golden item...",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:nether/distract_piglin",
+  "criteria": {
+    "curse_of_piglin_1": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": [
+            "minecraft:golden_sword"
+          ],
+          "enchantments": [
+            {
+              "enchantment": "minecraft:vanishing_curse"
+            }
+          ]
+        }
+      }
+    },
+    "curse_of_piglin_2": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": [
+            "minecraft:golden_pickaxe"
+          ],
+          "enchantments": [
+            {
+              "enchantment": "minecraft:vanishing_curse"
+            }
+          ]
+        }
+      }
+    },
+    "curse_of_piglin_3": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": [
+            "minecraft:golden_axe"
+          ],
+          "enchantments": [
+            {
+              "enchantment": "minecraft:vanishing_curse"
+            }
+          ]
+        }
+      }
+    },
+    "curse_of_piglin_4": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": [
+            "minecraft:golden_shovel"
+          ],
+          "enchantments": [
+            {
+              "enchantment": "minecraft:vanishing_curse"
+            }
+          ]
+        }
+      }
+    },
+    "curse_of_piglin_5": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": [
+            "minecraft:golden_hoe"
+          ],
+          "enchantments": [
+            {
+              "enchantment": "minecraft:vanishing_curse"
+            }
+          ]
+        }
+      }
+    },
+    "curse_of_piglin_6": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": [
+            "minecraft:golden_helmet"
+          ],
+          "enchantments": [
+            {
+              "enchantment": "minecraft:vanishing_curse"
+            }
+          ]
+        }
+      }
+    },
+    "curse_of_piglin_7": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": [
+            "minecraft:golden_chestplate"
+          ],
+          "enchantments": [
+            {
+              "enchantment": "minecraft:vanishing_curse"
+            }
+          ]
+        }
+      }
+    },
+    "curse_of_piglin_8": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": [
+            "minecraft:golden_leggings"
+          ],
+          "enchantments": [
+            {
+              "enchantment": "minecraft:vanishing_curse"
+            }
+          ]
+        }
+      }
+    },
+    "curse_of_piglin_9": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": [
+            "minecraft:golden_boots"
+          ],
+          "enchantments": [
+            {
+              "enchantment": "minecraft:vanishing_curse"
+            }
+          ]
+        }
+      }
+    },
+    "curse_of_piglin_10": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": [
+            "minecraft:golden_helmet"
+          ],
+          "enchantments": [
+            {
+              "enchantment": "minecraft:binding_curse"
+            }
+          ]
+        }
+      }
+    },
+    "curse_of_piglin_11": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": [
+            "minecraft:golden_chestplate"
+          ],
+          "enchantments": [
+            {
+              "enchantment": "minecraft:binding_curse"
+            }
+          ]
+        }
+      }
+    },
+    "curse_of_piglin_12": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": [
+            "minecraft:golden_leggings"
+          ],
+          "enchantments": [
+            {
+              "enchantment": "minecraft:binding_curse"
+            }
+          ]
+        }
+      }
+    },
+    "curse_of_piglin_13": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": [
+            "minecraft:golden_boots"
+          ],
+          "enchantments": [
+            {
+              "enchantment": "minecraft:binding_curse"
+            }
+          ]
+        }
+      }
+    },
+    "curse_of_piglin_14": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": [
+            "minecraft:golden_sword"
+          ],
+          "enchantments": [
+            {
+              "enchantment": "minecraft:binding_curse"
+            }
+          ]
+        }
+      }
+    },
+    "curse_of_piglin_15": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": [
+            "minecraft:golden_pickaxe"
+          ],
+          "enchantments": [
+            {
+              "enchantment": "minecraft:binding_curse"
+            }
+          ]
+        }
+      }
+    },
+    "curse_of_piglin_16": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": [
+            "minecraft:golden_axe"
+          ],
+          "enchantments": [
+            {
+              "enchantment": "minecraft:binding_curse"
+            }
+          ]
+        }
+      }
+    },
+    "curse_of_piglin_17": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": [
+            "minecraft:golden_shovel"
+          ],
+          "enchantments": [
+            {
+              "enchantment": "minecraft:binding_curse"
+            }
+          ]
+        }
+      }
+    },
+    "curse_of_piglin_18": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": [
+            "minecraft:golden_hoe"
+          ],
+          "enchantments": [
+            {
+              "enchantment": "minecraft:binding_curse"
+            }
+          ]
+        }
+      }
+    },
+    "curse_of_piglin_19": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": [
+            "minecraft:golden_horse_armor"
+          ],
+          "enchantments": [
+            {
+              "enchantment": "minecraft:vanishing_curse"
+            }
+          ]
+        }
+      }
+    },
+    "curse_of_piglin_20": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:piglin"
+        },
+        "item": {
+          "items": [
+            "minecraft:golden_horse_armor"
+          ],
+          "enchantments": [
+            {
+              "enchantment": "minecraft:binding_curse"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "curse_of_piglin_1",
+      "curse_of_piglin_2",
+      "curse_of_piglin_3",
+      "curse_of_piglin_4",
+      "curse_of_piglin_5",
+      "curse_of_piglin_6",
+      "curse_of_piglin_7",
+      "curse_of_piglin_8",
+      "curse_of_piglin_9",
+      "curse_of_piglin_10",
+      "curse_of_piglin_11",
+      "curse_of_piglin_12",
+      "curse_of_piglin_13",
+      "curse_of_piglin_14",
+      "curse_of_piglin_15",
+      "curse_of_piglin_16",
+      "curse_of_piglin_17",
+      "curse_of_piglin_18",
+      "curse_of_piglin_19",
+      "curse_of_piglin_20"
+    ]
+  ]
+}

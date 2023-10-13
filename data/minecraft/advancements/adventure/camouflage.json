@@ -1,0 +1,138 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:creeper_head"
+    },
+    "title": "Camouflage",
+    "description": "Kill every mob using the same type of mob head",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:adventure/charged_creeper",
+  "criteria": {
+    "camouflage_1": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "minecraft:zombie_head"
+              ]
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:zombie"
+        }
+      }
+    },
+    "camouflage_2": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "minecraft:creeper_head"
+              ]
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:creeper"
+        }
+      }
+    },
+    "camouflage_3": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "minecraft:skeleton_skull"
+              ]
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:skeleton"
+        }
+      }
+    },
+    "camouflage_4": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "minecraft:wither_skeleton_skull"
+              ]
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:wither_skeleton"
+        }
+      }
+    },
+    "camouflage_5": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "minecraft:dragon_head"
+              ]
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:ender_dragon"
+        }
+      }
+    },
+    "camouflage_6": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "minecraft:piglin_head"
+              ]
+            }
+          }
+        },
+        "entity": {
+          "type": "minecraft:piglin"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "camouflage_1"
+    ],
+    [
+      "camouflage_2"
+    ],
+    [
+      "camouflage_3"
+    ],
+    [
+      "camouflage_4"
+    ],
+    [
+      "camouflage_5"
+    ],
+    [
+      "camouflage_6"
+    ]
+  ]
+}
